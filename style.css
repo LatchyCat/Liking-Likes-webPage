@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    .boxAround{
+        display: flex;
+        justify-content: center;
+    }
+    .topNav {
+        display: flex;
+        background-color: black;
+        color: white;
+        justify-content: flex-start;
+        width: 65vw;
+    }
+
+    .middlePartNav {
+        display: flex;
+        justify-content: center;
+        font-size: x-large;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .bottomNav {
+        display: flex;
+        justify-content: space-evenly;
+        /* background-color: aquamarine; */
+        height: 300vh;
+        margin: 20px;
+    }
+
+    .leftBottomNav {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        border: solid black 3px;
+        height: 35vh;
+        width: 15vw;
+        padding: 30px;
+    }
+    .iconImg {
+        height: 10vh;
+    }
+
+
+
+    .rightBottomNav {
+
+    }
+
+    .feedBoxTop {
+        /* background-color: yellowgreen; */
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 10px;
+        border: solid black 3px;
+        height: 20vh;
+        margin-bottom: 10px;
+    }
+    .topSection {
+        display: flex;
+        justify-content: space-around;
+    }
+    .bottomSection {
+        display: flex;
+        justify-content: baseline;
+        overflow: hidden;
+        margin-left: 10px;
+    }
+
+    .feedBoxMiddle {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 10px;
+        border: solid black 3px;
+        height: 20vh;
+        margin-bottom: 10px;
+        /* background-color: aqua; */
+    }
+
+    .feedBoxBottom {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 10px;
+        border: solid black 3px;
+        height: 20vh;
+        /* background-color: orange */
+    }
